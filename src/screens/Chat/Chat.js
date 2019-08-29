@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { DirectLine } from 'botframework-directlinejs';
-import ReactWebChat from 'botframework-webchat';
+import { HashLink as Link } from 'react-router-hash-link';
 import './chat.css'
 class Chat extends Component {
     constructor(props) {
@@ -10,8 +10,14 @@ class Chat extends Component {
     }
     render() {
         return (
-            <div className='container-fluid chat-container' >
-                <br/>
+            <div className='container-fluid chat-container p-0' >
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><Link to='/'>Home</Link></li>
+                        <li class="breadcrumb-item active" aria-current="page">Chat</li>
+                    </ol>
+                </nav>
+                <div className='container' >
                 <div className='row' >
                     <div className='col-sm col-md-12' >
                         <h2 className='text-white text-center' >
@@ -19,12 +25,9 @@ class Chat extends Component {
                         </h2>
                     </div>
                 </div>
-                <br/>
-                <br/>
-                <div className='container' >
                 <div className='bg-white p-0 frame-container' >
                 {/* <ReactWebChat directLine={this.directLine} userID='YOUR_USER_ID' /> */}
-                <iframe src='https://webchat.botframework.com/embed/chatbot-whealth?s=m8Fw3rl9b4s.yQeQ8sYIbEhjT5cppXr_UJ7aszNKwAKvWjb1VZzxZGQ'  style={{minWidth:'400px', width: '100%', minHeight: '500px'}}></iframe>
+                <iframe src='https://webchat.botframework.com/embed/chatbot-whealth?s=m8Fw3rl9b4s.yQeQ8sYIbEhjT5cppXr_UJ7aszNKwAKvWjb1VZzxZGQ'  style={{minWidth:'70%', width:'100%', minHeight: '420px'}}></iframe>
                 </div>
                 </div>
             </div>
