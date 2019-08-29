@@ -1,0 +1,9 @@
+.chat-container{
+    height: 100vh;
+    background-color: #592c81;
+}
+
+
+.frame-container{
+    box-shadow: rgba(239, 238, 238, 0.31) 2px 0rem 4rem 8px !important; 
+}

@@ -1,0 +1,111 @@
+.hero-main-container {
+    width: 100%;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+}
+
+.my-row {
+    width: 100%;
+}
+
+.hero-left-1 {
+    cursor: pointer;
+    max-width: 100%;
+    min-height: 72vh;
+    background: linear-gradient(to right, #592c81, #592c81f7, #592c81f0, #592c81cc, #592c81c7), url('../../assets/images/slider-img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-left-2 {
+    cursor: pointer;
+    max-width: 100%;
+    min-height: 72vh;
+    background: linear-gradient(to right, #592c81, #592c81f7, #592c81f0, #592c81cc, #592c81c7), url('../../assets/images/slider-img-2.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero-left-3 {
+    cursor: pointer;
+    max-width: 100%;
+    min-height: 72vh;
+    background: linear-gradient(to right, #592c81, #592c81f7, #592c81f0, #592c81cc, #592c81c7), url('../../assets/images/slider-img-3.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-left-4 {
+    cursor: pointer;
+    max-width: 100%;
+    min-height: 72vh;
+    background: linear-gradient(to right, #592c81, #592c81f7, #592c81f0, #592c81cc, #592c81c7), url('../../assets/images/slider-img-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.hero-content{
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content h1{
+    color: white;
+}
+.hero-content h5{
+    color: white;
+}
+.text-special{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.hero-right {
+    cursor: pointer;
+    max-width: 100%;
+    min-height: 80vh;
+    background-color: #1D1E22;
+}
+
+.slick-next {
+    right: 0px !important;
+}
+
+.slider-text-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.slick-dots {
+    margin-bottom: 7% !important;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 18px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: none !important;
+    color: white !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

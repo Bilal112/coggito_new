@@ -1,0 +1,47 @@
+.faq-page-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(60deg, #000000 0%, #ffffff3b 119%) , url('https://static.careers360.mobi/media/article_images/2018/10/17/JEE_Adv-answer-key.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.typed-text{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.secondary-sec-heading{
+    color: #6754d9;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+
+  .terms-point{
+      list-style-type: none;
+  }
+
+  .terms-point li{
+      margin-top: 10px;
+}
+  .terms-point li:before {
+      margin-right: 10px;
+    content: '✓';
+  }
+
+
+
+.faq-card-header{
+    cursor: pointer;
+}
+
+.faq-card{
+    margin-bottom: 20px;
+}
