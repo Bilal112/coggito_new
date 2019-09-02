@@ -5,7 +5,7 @@
 
 
 .frame-container{
-    margin: 0 auto;
+    margin: 50px auto;
     width: 70%;
     box-shadow: rgba(239, 238, 238, 0.31) 2px 0rem 4rem 8px !important; 
 }
@@ -21,7 +21,7 @@
   }
 
 
-  @media (min-height:650px) and (max-height: 1024px){
+  @media (min-height:650px) and (max-height: 1024px) and (max-width: 786px){
     .frame-container{
         width: 95%;
         margin-top: 20%;
