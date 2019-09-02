@@ -109,3 +109,32 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+@media only screen and (max-width: 450px) {
+    
+    .hero-left-3 {
+        cursor: pointer;
+        max-width: 100%;
+        min-height: 72vh;
+        background: linear-gradient(to right, #592c81, #592c81f7, #592c81f0, #592c81cc, #592c81c7), url('../../assets/images/slider-img-3.png');
+        background-repeat: no-repeat;
+        background-position:right center;
+        background-size: cover;
+    }
+    .text-special{
+        font-size: 40px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .hero-content h1{
+        font-size: 26px;
+        color: white;
+    }
+    .hero-content h5{
+        font-size: 18px;
+        color: white;
+    }
+
+  }

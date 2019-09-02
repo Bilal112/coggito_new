@@ -17,7 +17,7 @@ class Chat extends Component {
                         <li class="breadcrumb-item active" aria-current="page">Chat</li>
                     </ol>
                 </nav>
-                <div className='container' >
+                <div className='container-fluid' >
                 <div className='row' >
                     <div className='col-sm col-md-12' >
                         <h2 className='text-white text-center' >
