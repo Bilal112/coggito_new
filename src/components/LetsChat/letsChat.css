@@ -6,3 +6,7 @@
     background-attachment: fixed;
     height: 40vh;
 }
+.btn-second{
+    text-align: center;
+    display: flex;
+}

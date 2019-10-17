@@ -5,8 +5,9 @@ import logo from '../../assets/images/logo.png'
 const Nav = () =>{
     return(
 <nav class="navbar navbar-expand-lg sticky-top navbar-light custom-nav">
-  <Link className="navbar-brand" to="/">
+  <Link className="navbar-brand" to="/" >
       <img src={logo} width='50px' height='40px' />
+      <p> Congitto  </p>
   </Link>
   {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

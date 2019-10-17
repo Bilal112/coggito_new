@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './hero.css';
-import logo from '../../assets/images/logo.png'
 const HeroHeader = () => {
     var settings = {
         dots: true,
